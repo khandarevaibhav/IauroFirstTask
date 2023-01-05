@@ -12,6 +12,8 @@ def div(val1, val2):
   return val1/val2
 def mod(val1, val2):
   return val1%val2
+def square(val1, val2):
+  return val1**val2
 
 if 'add' or '+' in operation:
   add(val1, val2)
@@ -23,5 +25,7 @@ elif 'div' or '/' in operation:
   div(val1, val2)
 elif 'mod' or '%' in operation:
   mod(val1, val2)
+elif 'square' in operation:
+  square(val1, val2)
 else:
   print("invalid operation")
